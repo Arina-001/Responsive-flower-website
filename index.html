@@ -1,111 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <title>Responsive Flower Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faugei Flower Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 </head>
 <body>
 
+  <!-- Header & Hero -->
+  <header class="header">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <img src="B12A02-Responsive-Flowers-main/assets/logo.png" alt="Faugei Logo" class="logo" />
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About us</a></li>
+        <li ><a href="#" class="active-1"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
+      </ul>
+    </nav>
 
-    <header>
-<nav class="nav">
-   <div >
-<img src="B12A02-Responsive-Flowers-main/assets/logo.png" alt="" class="nav-1">
-   </div>
-
-
-   <div class="nav-2">
-<a href="" id="Home">Home</a>
-<a href="" id="shop">Shop</a>
-<a href="" id="shop">About Us</a>
-<a href="" id="cart">
-<i class="fa-solid fa-cart-shopping"></i>
-Cart($56)
-</a>
-   </div>
-</nav>
-
-<div class="hero">
-    <div class="hero-1">
-        <h1 id="h1">ALWAYS <span class="orange">FRESH FLOWERS</span>  </h1>
-        <p>
-Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
-        </p>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero-text">
+        <h1>ALWAYS <span class="highlight">FRESH</span><br><span class="highlight">FLOWERS</span></h1>
+        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+      </div>
+      <div class="hero-image">
+        <img src="B12A02-Responsive-Flowers-main/assets/hero-flower.png" alt="Fresh Flower Image" />
+      </div>
     </div>
-    <div class="hero-2">
-        <img src="B12A02-Responsive-Flowers-main/assets/hero-flower.png" alt="">
+
+    <section class="product-section">
+  <div class="product-header">
+    <h2><span class="highlight">Our</span> Plants</h2>
+    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+  </div>
+
+  <div class="product-grid">
+    <!-- Repeat this block for each product -->
+    <div class="product-card">
+      <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom">
+      <h3>Lily Blossom</h3>
+      <p class="price">20 USD</p>
+      <button class="btn-cart">ADD TO CART</button>
     </div>
-</div>
-    </header>
-  <main>
-    <section class="container">
-    <h2 class="section-title"><span class="highlight">Our</span> Plants</h2>
-    <p class="section-description">
-      Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
-    </p>
 
-    <div class="product-grid">
-      <!-- Repeat this block for each product -->
-      <div class="product-card">
-        <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom" />
-        <p class="product-name">Lily Blossom</p>
-        <p class="product-price">20 USD</p>
-        <button class="btn">ADD TO CART</button>
-      </div>
-        <div class="product-card">
-        <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom" />
-        <p class="product-name">Lily Blossom</p>
-        <p class="product-price">20 USD</p>
-        <button class="btn">ADD TO CART</button>
-      </div>
-        <div class="product-card">
-        <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom" />
-        <p class="product-name">Lily Blossom</p>
-        <p class="product-price">20 USD</p>
-        <button class="btn">ADD TO CART</button>
-      </div>
-        <div class="product-card">
-        <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom" />
-        <p class="product-name">Lily Blossom</p>
-        <p class="product-price">20 USD</p>
-        <button class="btn">ADD TO CART</button>
-      </div>
-        <div class="product-card">
-        <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom" />
-        <p class="product-name">Lily Blossom</p>
-        <p class="product-price">20 USD</p>
-        <button class="btn">ADD TO CART</button>
-      </div>
-        <div class="product-card">
-        <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom" />
-        <p class="product-name">Lily Blossom</p>
-        <p class="product-price">20 USD</p>
-        <button class="btn">ADD TO CART</button>
-      </div>
-        <div class="product-card">
-        <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom" />
-        <p class="product-name">Lily Blossom</p>
-        <p class="product-price">20 USD</p>
-        <button class="btn">ADD TO CART</button>
-      </div>
-        <div class="product-card">
-        <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom" />
-        <p class="product-name">Lily Blossom</p>
-        <p class="product-price">20 USD</p>
-        <button class="btn">ADD TO CART</button>
-      </div>
-     
+    <div class="product-card">
+      <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom">
+      <h3>Lily Blossom</h3>
+      <p class="price">20 USD</p>
+      <button class="btn-cart">ADD TO CART</button>
     </div>
-  </section>
-
-
-  <section class="feature-section">
-    <div class="feature-image">
-      <img src="https://via.placeholder.com/500x500.png?text=Flower+Shop" alt="Flower shop overhead view" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Trusted_Seal.svg/512px-Trusted_Seal.svg.png" class="badge" alt="Trusted Seller Badge" />
+    <div class="product-card">
+      <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom">
+      <h3>Lily Blossom</h3>
+      <p class="price">20 USD</p>
+      <button class="btn-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+      <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom">
+      <h3>Lily Blossom</h3>
+      <p class="price">20 USD</p>
+      <button class="btn-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+      <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom">
+      <h3>Lily Blossom</h3>
+      <p class="price">20 USD</p>
+      <button class="btn-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+      <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom">
+      <h3>Lily Blossom</h3>
+      <p class="price">20 USD</p>
+      <button class="btn-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+      <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom">
+      <h3>Lily Blossom</h3>
+      <p class="price">20 USD</p>
+      <button class="btn-cart">ADD TO CART</button>
+    </div>
+    <div class="product-card">
+      <img src="B12A02-Responsive-Flowers-main/assets/sample-flower-image.png" alt="Lily Blossom">
+      <h3>Lily Blossom</h3>
+      <p class="price">20 USD</p>
+      <button class="btn-cart">ADD TO CART</button>
+    </div>
+ 
+  </div>
+</section>
+<section class="feature-section">
+  <div class="feature-container">
+    
+    <div class="feature-image-wrapper">
+      <div class="feature-image">
+        <img src="B12A02-Responsive-Flowers-main/assets/flower-store.png" alt="Flower Arrangement">
+        <div class="gradient-overlay"></div>
+      </div>
+      <img src="B12A02-Responsive-Flowers-main/assets/trusted-badge.png" alt="Trusted Badge" class="badge-overlay">
     </div>
 
     <div class="feature-text">
@@ -116,11 +112,99 @@ Indulge your senses with the beauty and fragrance of our fresh flower shop. From
         <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
       </ul>
     </div>
-  </section>
-    </main>
-    <footer>
+
+  </div>
+</section>
+
+<section class="deals-section">
+  <div class="deals-header">
+    <h2><span class="highlight">Latest</span> Deals</h2>
+    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+  </div>
+
+  <div class="deals-container">
+    <div class="deal-left">
+      <div class="deal-card small">
+        <img src="B12A02-Responsive-Flowers-main/assets/deal-bloom.png" alt="Bloom Plant">
+        <div class="deal-info">
+          <h3>60% Off | Bloom Plant</h3>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+      <div class="deal-card small">
+        <img src="B12A02-Responsive-Flowers-main/assets/deal-ana.png" alt="Ana Plant">
+        <div class="deal-info">
+          <h3>30% Off | Ana Plant</h3>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="deal-card large">
+      <img src="B12A02-Responsive-Flowers-main/assets/deal-zabo.png" alt="Zabo Plant">
+      <div class="deal-info">
+        <h3>25% Off | Zabo Plant</h3>
+        <a href="#">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Subscription Section -->
+<section class="subscribe-section">
+  <div class="subscribe-overlay">
+    <h2 class="join">Join the colorful Bunch</h2>
+    <form class="subscribe-form">
+      <input type="email" placeholder="Write email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
 
 
-    </footer>
+
+  </header>
+
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Left: Logo and Description -->
+    <div class="footer-brand">
+      <img src="B12A02-Responsive-Flowers-main/assets/logo.png" alt="Faugei Logo" class="footer-logo" />
+      <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+    </div>
+
+    <!-- Center: Link Columns -->
+     <div class="footer-inline">
+    <div class="footer-links">
+      <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Blog</li>
+        <li>FAQ</li>
+        <li>Contact Us</li>
+      </ul>  </div>
+
+      <div class="footer-links">
+      <ul>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+        <li>Help Center</li>
+      </ul>
+    </div>
+    </div>
+  <!-- Right: Social Icons -->
+    <div class="footer-socials">
+      <a href="#"><img src="B12A02-Responsive-Flowers-main/assets/icon-linkedin.png" alt="LinkedIn" /></a>
+      <a href="#"><img src="B12A02-Responsive-Flowers-main/assets/icon-twitter.png" alt="X" /></a>
+      <a href="#"><img src="B12A02-Responsive-Flowers-main/assets/icon-facebook.png" alt="Facebook" /></a>
+      <a href="#"><img src="B12A02-Responsive-Flowers-main/assets/icon-youtube.png" alt="YouTube" /></a>
+    </div>
+
+  </div>
+</footer>
 </body>
 </html>
