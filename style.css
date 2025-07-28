@@ -451,10 +451,19 @@ ul {
 .footer-links {
  
   display: flex; 
+
   justify-content: space-between;
+
 
 }
 
+
+.footer-inline{
+
+    display: flex;
+    justify-content: space-between;
+    gap:200px;
+}
 .footer-links ul {
   list-style: none;
   padding: 0;
